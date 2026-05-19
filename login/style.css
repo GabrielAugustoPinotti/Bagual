@@ -1,0 +1,145 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+  min-height:100vh;
+  background-image:url("fundo.jpeg");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+
+/* BARRA CUPOM */
+.top-bar{
+  width:100%;
+  height:40px;
+
+  background:black;
+  color:white;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  font-size:13px;
+  letter-spacing:1px;
+}
+
+/* NAVBAR */
+.navbar{
+  width:100%;
+  height:75px;
+
+  background:white;
+
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  padding:0 40px;
+}
+
+/* LOGO */
+.logo img{
+  width:200px;
+  height:auto;
+}
+
+/* MENU DIREITO (LOGIN PAGE) */
+.menu-right{
+  display:flex;
+  gap:10px;
+  align-items:center;
+}
+
+/* BOTÕES (IMPORTANTE: botão dentro de a também) */
+.menu-right button{
+  padding:8px 18px;
+
+  border:1px solid gray;
+  background:white;
+
+  cursor:pointer;
+
+  transition:0.3s;
+}
+
+.menu-right button:hover{
+  background:black;
+  color:white;
+}
+
+/* LOGIN CONTAINER */
+.login-container{
+  width:100%;
+  height:calc(100vh - 115px);
+
+  display:flex;
+  align-items:center;
+
+  padding-left:12%;
+}
+
+/* LOGIN BOX */
+.login-box{
+  width:340px;
+
+  background:rgba(0,0,0,0.9);
+
+  padding:35px;
+
+  border-radius:12px;
+
+  color:white;
+
+  box-shadow:0 0 20px rgba(0,0,0,0.4);
+}
+
+/* FORM */
+form{
+  display:flex;
+  flex-direction:column;
+}
+
+label{
+  margin-bottom:8px;
+  font-size:15px;
+}
+
+input{
+  padding:14px;
+
+  border:none;
+  border-radius:8px;
+
+  margin-bottom:25px;
+
+  background:#f1f1f1;
+
+  font-size:15px;
+}
+
+/* BOTÃO LOGIN */
+.login-box button{
+  padding:14px;
+
+  border:none;
+  border-radius:8px;
+
+  background:#2d2d2d;
+  color:white;
+
+  font-size:16px;
+
+  cursor:pointer;
+
+  transition:0.3s;
+}
+
+.login-box button:hover{
+  background:#444;
+}
